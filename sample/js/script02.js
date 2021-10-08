@@ -2,8 +2,8 @@ $(function(){
 
     let txt1 =  "おはよう〜";
     let txt2 = "元気ですk！？";
-    let num1 = 20;
-    let num2 = 32;
+    let num1 = 1642374681230;
+    let num2 = 367312482;
 
     $("#button01").on("click",function(){
         $("#content").text("こんにちは〜");
@@ -21,8 +21,8 @@ $(function(){
         $("#content").text(num1 +num2);
     })
 
-    $("button5").on("click",function(){
-        $("#content").text(num1+ "たす" + num2 + "は"　+ (num1 + num2) + "です");
+    $("#button05").on("click",function(){
+        $("#content").text(num1+ "かける" + num2 + "は"　+ (num1 * num2) + "です");
     })
 
 });

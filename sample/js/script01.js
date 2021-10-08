@@ -9,7 +9,7 @@ $(function(){
     })
 
     $("#button03").on("click",function(){
-        $("3box03,#box07,#box08").slideUp();
+        $("#box03,#box07,#box08").slideUp();
     })
 
     $("#button04").on("click",function(){
